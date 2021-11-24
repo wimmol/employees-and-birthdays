@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://wimmol.github.io/employees-and-birthdays/employees",
+  "homepage": "http://wimmol.github.io/employees-and-birthdays",
   "eslintConfig": {
     "extends": [
       "react-app",
