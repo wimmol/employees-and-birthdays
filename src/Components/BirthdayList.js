@@ -2,7 +2,12 @@ import './BirthdayList.css'
 
 function BirthdayList({actives}) {
     if (actives.length === 0)
-        return (<div className="birthday-list"><h3>Employees List is empty</h3></div>)
+        return (<div className="birthday-list">
+            <h2>Birthdays</h2>
+            <div className="birthday-list__month">
+                <p className="birthday-list__empty">Employees List is empty</p>
+            </div>
+        </div>)
     let months = 'November December January February March April May June July August September October'.split(' ')
     actives = actives.sort((a, b) => a.lastName > b.lastName ? 1 : -1)
     let list = months.map((month, index) =>
