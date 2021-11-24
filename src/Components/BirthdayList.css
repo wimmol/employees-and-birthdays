@@ -1,0 +1,31 @@
+.birthday-list {
+    position: sticky;
+    width: 30%;
+    background-color: #f0faff;
+}
+
+.birthday-list__months-list {
+    padding-top: 0.1%;
+}
+
+.birthday-list__month {
+    padding-left: 35px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.birthday-list__month-name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.birthday-list__employee {
+    margin-top: 10px;
+}
+
+@media (max-width: 992px) {
+    .birthday-list__month {
+        padding-left: 15px;
+    }
+}

@@ -1,0 +1,23 @@
+* {
+  font-size: 18px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 300;
+}
+
+h2, p {
+  margin: 0;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin: 32px 0 16px 0;
+}
+
+body, #root {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
