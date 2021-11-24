@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/employees-and-birthdays/static/css/main.61ab65a7.chunk.css",
+    "main.js": "/employees-and-birthdays/static/js/main.87b5eeb5.chunk.js",
+    "main.js.map": "/employees-and-birthdays/static/js/main.87b5eeb5.chunk.js.map",
+    "runtime-main.js": "/employees-and-birthdays/static/js/runtime-main.ae706839.js",
+    "runtime-main.js.map": "/employees-and-birthdays/static/js/runtime-main.ae706839.js.map",
+    "static/js/2.e4d70a35.chunk.js": "/employees-and-birthdays/static/js/2.e4d70a35.chunk.js",
+    "static/js/2.e4d70a35.chunk.js.map": "/employees-and-birthdays/static/js/2.e4d70a35.chunk.js.map",
+    "static/js/3.4217aacc.chunk.js": "/employees-and-birthdays/static/js/3.4217aacc.chunk.js",
+    "static/js/3.4217aacc.chunk.js.map": "/employees-and-birthdays/static/js/3.4217aacc.chunk.js.map",
+    "index.html": "/employees-and-birthdays/index.html",
+    "static/css/main.61ab65a7.chunk.css.map": "/employees-and-birthdays/static/css/main.61ab65a7.chunk.css.map",
+    "static/js/2.e4d70a35.chunk.js.LICENSE.txt": "/employees-and-birthdays/static/js/2.e4d70a35.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae706839.js",
+    "static/js/2.e4d70a35.chunk.js",
+    "static/css/main.61ab65a7.chunk.css",
+    "static/js/main.87b5eeb5.chunk.js"
+  ]
+}
