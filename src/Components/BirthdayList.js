@@ -1,5 +1,15 @@
 import './BirthdayList.css'
 
+function getRandomColor() {
+    const which = Math.floor(Math.random() * 3)
+    const a = [Math.floor(Math.random() * 30) + 220, Math.floor(Math.random() * 30) + 220, 255]
+    return '#' + a[which % 3].toString(16) + a[(which+1) % 3].toString(16) + a[(which+2) % 3].toString(16)
+}
+
+
+const monthColors = []
+for (let i = 0; i < 12; i++) monthColors.push(getRandomColor())
+
 function BirthdayList({actives}) {
     if (actives.length === 0)
         return (<div className="birthday-list">
@@ -34,19 +44,12 @@ function BirthdayList({actives}) {
             }
         })
 
-    function getRandomColor() {
-        const which = Math.floor(Math.random() * 3)
-        const a = [Math.floor(Math.random() * 30) + 220, Math.floor(Math.random() * 30) + 220, 255]
-        return '#' + a[which % 3].toString(16) + a[(which+1) % 3].toString(16) + a[(which+2) % 3].toString(16)
-    }
-
-
     return (
         <div className="birthday-list">
             <h2>Birthdays</h2>
             <div className="birthday-list__months-list">
                 {months.map((month, index) =>
-                    <div key={month} className="birthday-list__month" style={{backgroundColor: getRandomColor()}}>
+                    <div key={month} className="birthday-list__month" style={{backgroundColor: monthColors[index]}}>
                         <p className="birthday-list__month-name">{month}</p>
                         {list[index]}
                     </div>
