@@ -61,14 +61,14 @@ function SelectBoard({actives, setActives}) {
         }
     }
 
-    let alphabet = 'abcdefghijklmnopqrstuvwxyz'.toUpperCase().split('')
+    const alphabet = 'abcdefghijklmnopqrstuvwxyz'.toUpperCase().split('')
 
     return (
         <div className="select-board">
             <h2>Employees</h2>
             <div className="select-board__latter-list">
                 {alphabet.map(latter => {
-                    let currentEmployees = employees.filter(employee => employee.firstName[0].toUpperCase() === latter)
+                    const currentEmployees = employees.filter(employee => employee.firstName[0].toUpperCase() === latter)
                     if (currentEmployees.length === 0) {
                         return (
                             <div className="select-board__latter" key={latter}>

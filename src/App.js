@@ -8,8 +8,7 @@ function App() {
     const [actives, setActives] = useState([])
 
     useEffect(() => {
-        let storedActives = JSON.parse(window.localStorage.getItem('actives'))
-        if (storedActives === null) storedActives = []
+        const storedActives = JSON.parse(window.localStorage.getItem('actives')) || []
         setActives(storedActives)
     }, []);
 
